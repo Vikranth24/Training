@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-21T07:49:36 IST" name="Default suite" finished-at="2022-02-21T07:50:00 IST" duration-ms="23962">
+    <groups>
+    </groups>
+    <test started-at="2022-02-21T07:49:36 IST" name="Default test" finished-at="2022-02-21T07:50:00 IST" duration-ms="23962">
+      <class name="Test.Sampletest_Soft_assert_57">
+        <test-method signature="add()[pri:0, instance:Test.Sampletest_Soft_assert_57@5d534f5d]" started-at="2022-02-21T07:49:36 IST" name="add" finished-at="2022-02-21T07:50:00 IST" duration-ms="23872" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'LAPTOP-3N63N73N', ip: '192.168.43.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00896903+2517251]
+Ordinal0 [0x0082F8E1+2095329]
+Ordinal0 [0x00732848+1058888]
+Ordinal0 [0x00750B9D+1182621]
+Ordinal0 [0x0074CA60+1165920]
+Ordinal0 [0x0074A2CF+1155791]
+Ordinal0 [0x0077AAAF+1354415]
+Ordinal0 [0x0077A71A+1353498]
+Ordinal0 [0x0077639B+1336219]
+Ordinal0 [0x007527A7+1189799]
+Ordinal0 [0x00753609+1193481]
+GetHandleVerifier [0x00A25904+1577972]
+GetHandleVerifier [0x00AD0B97+2279047]
+GetHandleVerifier [0x00926D09+534521]
+GetHandleVerifier [0x00925DB9+530601]
+Ordinal0 [0x00834FF9+2117625]
+Ordinal0 [0x008398A8+2136232]
+Ordinal0 [0x008399E2+2136546]
+Ordinal0 [0x00843541+2176321]
+BaseThreadInitThunk [0x7749FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77D17A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77D17A6E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:15.31Z'
+System info: host: 'LAPTOP-3N63N73N', ip: '192.168.43.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00896903+2517251]
+Ordinal0 [0x0082F8E1+2095329]
+Ordinal0 [0x00732848+1058888]
+Ordinal0 [0x00750B9D+1182621]
+Ordinal0 [0x0074CA60+1165920]
+Ordinal0 [0x0074A2CF+1155791]
+Ordinal0 [0x0077AAAF+1354415]
+Ordinal0 [0x0077A71A+1353498]
+Ordinal0 [0x0077639B+1336219]
+Ordinal0 [0x007527A7+1189799]
+Ordinal0 [0x00753609+1193481]
+GetHandleVerifier [0x00A25904+1577972]
+GetHandleVerifier [0x00AD0B97+2279047]
+GetHandleVerifier [0x00926D09+534521]
+GetHandleVerifier [0x00925DB9+530601]
+Ordinal0 [0x00834FF9+2117625]
+Ordinal0 [0x008398A8+2136232]
+Ordinal0 [0x008399E2+2136546]
+Ordinal0 [0x00843541+2176321]
+BaseThreadInitThunk [0x7749FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77D17A9E+286]
+RtlGetAppContainerNamedObjectPath [0x77D17A6E+238]
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:132)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Sampletest_Soft_assert_57.add(Sampletest_Soft_assert_57.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- Test.Sampletest_Soft_assert_57 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

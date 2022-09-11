@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Exe.Search">
+        <methods>
+          <include name="Browser_teardown"/>
+          <include name="Login1" invocation-numbers="0"/>
+          <include name="Browser_setup"/>
+        </methods>
+      </class> <!-- Exe.Search -->
+      <class name="Exe.Register">
+        <methods>
+          <include name="Browser_teardown"/>
+          <include name="Tests" invocation-numbers="0"/>
+          <include name="Browser_setup"/>
+        </methods>
+      </class> <!-- Exe.Register -->
+      <class name="Exe.Login">
+        <methods>
+          <include name="Browser_teardown"/>
+          <include name="Browser_setup"/>
+          <include name="Login1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Exe.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
